@@ -28,9 +28,9 @@ blog:
 author:
   fullname                  : Gabriel Marinho
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : gdcmarinho@gmail.com # change to your e-mail address
-  twitter                   : gdcmarinho
-  github                    : officialmarinho
+  mail                      : javascriptbrasil@gmail.com # change to your e-mail address
+  twitter                   : javascriptbra
+  github                    : javascriptbrasil
   youtube                   : 
   stackoverflow             : 
   disqus                    : javascriptbrasil # your disqus site name
