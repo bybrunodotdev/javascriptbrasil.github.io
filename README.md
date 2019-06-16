@@ -1,5 +1,6 @@
 ## JavaScript Brasil
 ___
+Website oficial da comunidade brasileira de desenvolvedores JavaScript
 
 ## Licença
 
