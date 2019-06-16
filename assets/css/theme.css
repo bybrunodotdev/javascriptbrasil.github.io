@@ -1,3 +1,9 @@
+/*
+Template Name:Affiliates
+Copyright:WowThemes.net,https://www.wowthemes.net
+Version:1.0.2
+License: https://www.wowthemes.net/freebies-license/
+*/
 body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     overflow-x: hidden;
@@ -114,7 +120,7 @@ section.recent-posts {
 	}
 .navbar-toggleable-md .navbar-nav .nav-link.highlight {
     background: #fff100;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
         padding-left: 1em;
