@@ -7,7 +7,7 @@
 {% comment %}-------- Test if we have a date to process --------{% endcomment %}
 {% if processed_date %}
 
-    {% assign month = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+    {% assign month = "Janeiro,Fevereiro,Março,Abril,Maio,Junho,Julho,Agosto,Setembro,Outubro,Novembro,Dezembro" | split: "," %}
 
     {% assign month_index = processed_date | date: "%m" | minus: 1 %}
 
