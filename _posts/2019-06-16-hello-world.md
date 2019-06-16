@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
-author: Marinho
+author: Gabriel
 categories: [ Notas ]
 image: assets/images/7.jpg
 ---
