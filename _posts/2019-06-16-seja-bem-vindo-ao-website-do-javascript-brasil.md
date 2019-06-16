@@ -5,7 +5,7 @@ tags:
   - javascript
   - notas
 hero: https://source.unsplash.com/collection/1129594/
-overlay: red
+overlay: yellow
 published: true
 
 ---
