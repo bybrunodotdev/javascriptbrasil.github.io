@@ -4,7 +4,7 @@ title:  "Seja bem-vindo ao nosso website!"
 tags:
   - javascript
   - notas
-hero: https://source.unsplash.com/collection/430471/
+hero: https://source.unsplash.com/collection/1129594/
 overlay: red
 published: true
 
