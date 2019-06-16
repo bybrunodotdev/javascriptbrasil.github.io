@@ -5,7 +5,7 @@ tags:
   - javascriot
   - estudos
 hero: https://source.unsplash.com/collection/3144954/
-overlay: purple
+overlay: orange
 ---
 ## Primeiros passos
 ### O que é o JavaScript?
