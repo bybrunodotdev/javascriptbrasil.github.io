@@ -1,34 +1,52 @@
-# Profile information
-name: JavaScript
-title: JavaScript Brasil - a maior comunidade brasileira de JavaScript
-description: > # this means to ignore newlines until "baseurl:"
-  Website oficial da JavaScript Brasil, uma comunidade de desenvolvedores brasileiros que possuem JavaScript como hobby
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "javascriptbrasil.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Site
+name: "JavaScript Brasil"
+title: "JavaScript Brasil"
+description: "JavaScript é uma linguagem de programação interpretada, tipada, dinâmica, multi-paradigma e multi-plataformas"
+meta_description: "Blog oficial da JavaScript Brasil, a maior comunidade de desenvolvedores JavaScript do Brasil"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/'
+email: 'javascriptbrasil@gmail.com'
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
-# Social
-facebook: #Add your Facebook
-twitter: javascriptbra #Add your Twitter
-google-plus: #Add your Google+
-github: javascriptbrasil #Add your Github
+# Authors
+authors:
+  sal:
+    name: Gabriel
+    display_name: Marinho
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: gdcmarinho@gmail.com
+    web: https://www.wowthemes.net/category/jekyll-themes/
+    twitter: https://twitter.com/gdcmarinho
+    description: "Autor, desenvolvedor front-end e estudante de Engenharia de Software na UTFPR."
+  john:
+    name: John
+    display_name: John
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net/category/jekyll-themes/
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
-# Contact form
-email: #your-email@domain.com
-
-# Comments
-discus-identifier: # Add your Disqus identifier
-
-# Paginate
-paginate: 5
-paginate_path: /page:num/
-
-# Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
+# Plugins
+plugins: 
   - jekyll-paginate
-exclude:
-  - Gemfile
-  - Gemfile.lock
-include: [_pages]
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
