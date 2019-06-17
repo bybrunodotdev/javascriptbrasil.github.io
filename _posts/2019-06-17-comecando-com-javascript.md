@@ -2,7 +2,7 @@
 layout: post
 title: 'Começando com JavaScript'
 tags:
-  - javascriot
+  - javascript
   - estudos
 hero: https://source.unsplash.com/collection/3144954/
 overlay: orange
