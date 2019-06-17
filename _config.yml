@@ -7,7 +7,7 @@ url                          : "https://brasil.js.org/" # the base hostname & pr
 blog:
   title                      : JavaScript Brasil
   description                  : >
-                               comunidade de desenvolvedores brasileiros
+                               Comunidade de desenvolvedores brasileiros
 
 # Layout configuration
   logo_path                  : "assets/img/logo.svg" # path to logo file
