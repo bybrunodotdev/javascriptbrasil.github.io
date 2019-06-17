@@ -22,6 +22,4 @@ Considerando o mercado tecnológico atualmente, o JavaScript sai em frente em va
 ## Primeiro Hello World
 Para fazer um simples Hello World usando apenas JavaScript, digite o seguinte conteúdo em um arquivo .js:
 
-{% highlight js linenos %}
 alert('Hello World!');
-{% endhighlight %}
